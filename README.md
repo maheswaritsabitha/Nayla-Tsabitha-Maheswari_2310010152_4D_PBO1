@@ -17,8 +17,11 @@ Pada program ini, terdapat beberapa class:
 Contoh:
 ```java
 public class Pasien {
-    ...
-}
+    private String nama;
+    private int umur;
+    private String jenisKelamin;
+    private String keluhan;
+
 ```
 
 ---
@@ -84,19 +87,12 @@ public String getInfo() {
  7. **Encapsulation**
 Encapsulation berarti atribut disembunyikan (`private`) dan hanya bisa diakses lewat setter/getter.
 
-```// Contoh di class Pasien
+```
+// Contoh di class Pasien
 private String nama;
 private int umur;
 private String jenisKelamin;
 private String keluhan;
-
-public String getNama() {
-    return nama;
-}
-
-public void setKeluhan(String keluhan) {
-    this.keluhan = keluhan;
-}
 
 ---
 
