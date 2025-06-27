@@ -102,11 +102,10 @@ public void setKeluhan(String keluhan) {
 
  8. **Inheritance**
 `PasienUmum` dan `PasienGigi` **mewarisi class** `Pasien` dengan `extends`.
-```java
+ ```java
 public class PasienUmum extends Pasien {
     ...
 }
-```
 
 ---
 
