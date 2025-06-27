@@ -84,7 +84,7 @@ public String getInfo() {
  7. **Encapsulation**
 Encapsulation berarti atribut disembunyikan (`private`) dan hanya bisa diakses lewat setter/getter.
 
-// Contoh di class Pasien
+```// Contoh di class Pasien
 private String nama;
 private int umur;
 private String jenisKelamin;
